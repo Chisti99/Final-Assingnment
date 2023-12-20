@@ -1,0 +1,79 @@
+.navbar {
+    background-color: #afaa1989;
+    padding: 5px 5px;
+  }
+  .navbar-brand {
+    color: #4c0606;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .search-wrapper {
+    text-align: center;
+  }
+  #country-inp {
+    border-color: #1b4965;
+  }
+  #search-btn {
+    background-color: #000000;
+    border-color: #1e824c;
+    display: block;
+    margin: 0 auto; /
+  }
+  #result {
+    margin-top: 20px;
+    text-align: left;
+  }
+  .flag-img {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 15px;
+  }
+  
+  .card {
+    border: 1px solid #444;
+    border-radius: 8px;
+    transition: box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .modal-content {
+    border-radius: 8px;
+  }
+  
+  .modal-title {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: #ccc;
+    text-align: center;
+    padding: 0px;
+  }
+  
+  body {
+    background-image: url("Room.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  
+  #result,
+.details-section {
+  color: black;
+}

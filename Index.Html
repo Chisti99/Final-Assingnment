@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globe Trotters</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #333;
+        color: white;
+      }
+
+      .navbar ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+
+      .navbar ul li a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .navbar ul li a:hover {
+        color: lightgray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="brand">
+        <h2>Globe Trotters</h2>
+      </div>
+      <div class="menu"></div>
+    </div>
+
+    <header>
+      <h1>Welcome to Globe Trotters!</h1>
+    </header>
+
+    <div class="container">
+      <div class="search-wrapper">
+        <input
+          type="text"
+          id="country-inp"
+          placeholder="Enter a country name here..."
+        />
+        <button id="search-btn" class="btn btn-primary">Search</button>
+      </div>
+      <div id="result"></div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Globe Trotters. All rights reserved.</p>
+    </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
